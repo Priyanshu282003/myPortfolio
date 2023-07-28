@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(200, 196, 196);
+    font-family: 'Roboto', sans-serif;
+    width: 10vw;
+    height: 100vh;
+    font-weight: bold;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    
+    list-style: none;
+    /* list-style none se jo dot hai home k phle vo ht jayega */
+    padding: 33px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+
+    /* background-color: aqua; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /* background-color: pink; */
+    height: 60vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    /* the justify-content is used to move the image along with the flex */
+}
+.devPic img{
+    width: 200px;
+    height: 60vh;
+    border: 2px solid red;
+    border-radius: 60px;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    /* justify-content is used to move the flex things in the center */
+    flex-direction: column;
+    /* flex-direction: left; */
+}
+.hello{
+    font-size: 75px;
+
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.About{
+    font-size: 56px;
+
+}
+.buttons button{
+    margin-top: 20px;
+    padding: 6px;
+    border-radius: 8px;
+    margin: 20 6px;
+    /* font-size: 15px; */
+    cursor: pointer;
+    color: white;
+    background-color: rgb(83, 83, 243);
+
+}
+.buttons button:hover{
+    background-color: white;
+    color: blue;
+}
+.MoreAbout{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.contactform{
+    padding: 0 34px;
+    padding: 110px;
+
+}
+.contactform h1{
+    text-align: left;
+    padding: 12px 0;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform form div input{
+   width: 26vw;
+   border-radius: 6px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+
+}
+#emailHelp{
+    font-size: 16px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check-input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+.btn{
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 15px 3px;
+    /* font-size: 15px; */
+    cursor: pointer;
+    color: white;
+    background-color: rgb(83, 83, 243);
+
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+}
+
+.blogItem{
+    margin: 20px;
+    
+}
+.h1{
+    margin: 23px;
+
+}
+.p{
+    font-size: 18px;
+
+}
+.Intro h2{
+    margin: 12px;
+}
+.Intro p{
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+ 
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+.hundred{
+    width: 265px;
+    background-color: red;
+
+}
+.fifty{
+    width: 125px;
+    background-color: blue;
+}
+.t5{
+    width: 100px;
+    background-color: rgb(77, 224, 175);
+}
+.t4{
+    width:200px;
+    background-color: rgb(107, 104, 104);
+}
+.t3{
+    width: 150px;
+    background-color: greenyellow;
+}
+
+/* .Icontainer{ */
+    /* background-color: pink; */
+    /* height: 60vh; */
+    /* width: 80vw; */
+    /* margin: 100px auto; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* the justify-content is used to move the image along with the flex */
+/* } */
+/* .devpic img{
+    width: 140px;
+    height: 40vh;
+    border: 2px solid red;
+    border-radius: 60px;
+} */
